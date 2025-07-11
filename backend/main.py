@@ -34,5 +34,5 @@ def get_config():
     })
 
 if __name__ == "__main__":
-    port = int(os.getenv("PORT", 5000)) 
+    port = int(os.getenv("PORT", 10000)) 
     server.run(host="0.0.0.0", port=port)
